@@ -100,7 +100,7 @@ def save_as():
         root.filename.close()
 
 def exit():
-        message = messagebox.askquestion('Notepad',"Do you want to save changes?")
+        message = messagebox.askquestion('PyPad',"Do you want to save changes?")
         if message == "yes":
                 save_as()
         else:
@@ -119,7 +119,7 @@ def paste():
 
 
 def delete():
-        message = messagebox.askquestion('Notepad',"Do you want to Delete all")
+        message = messagebox.askquestion('PyPad',"Do you want to Delete all")
         if message == "yes":
                 text.delete('1.0','end')
         else:
