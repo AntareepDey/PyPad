@@ -78,7 +78,7 @@ def new_window():
         root.mainloop()
 
 def aboutpypad():
-        messagebox.showinfo("About PyPad", "Version 1.0")
+        messagebox.showinfo("About PyPad", "               Version 1.1 \n Developed by Antareep Dey")
 
 def Open():
         root.filename = filedialog.askopenfilename(
